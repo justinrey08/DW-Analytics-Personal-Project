@@ -1,0 +1,4 @@
+kaggle==1.6.0
+opendatasets==0.1.22
+py==3.9
+pyspark==3.5.0
