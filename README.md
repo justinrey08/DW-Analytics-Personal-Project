@@ -5,7 +5,7 @@ This project aims to provide a technology solution to a imaginary coffee shop wi
 ![Default Schema](/Architecture%20and%20Schema/Default-Schema.jpg)
 
 ## Architecture Synthesis Ver 1.1
-![Solution Architecture](/DW-Analytics-Personal-Project/Architecture%20and%20Schema/Version%201%20Architecture.jpg)
+![Solution Architecture](/Architecture%20and%20Schema/Version%201%20Architecture.jpg)
 
 ## Data Overview:
 
