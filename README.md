@@ -10,3 +10,19 @@ This project aims to provide a technology solution to a imaginary coffee shop wi
 ## Data Overview:
 
 Dataset source - https://www.kaggle.com/datasets/ylchang/coffee-shop-sample-data-1113?select=201904+sales+reciepts.csv
+
+The default dataset has nine tables:
+
+Sales Receipts
+Pastry Inventory
+Sales Targets
+Customer
+Dates
+Product
+Sales Outlet
+Staff
+Generation
+
+
+Acknowledgements
+https://community.ibm.com/community/user/businessanalytics/blogs/steven-macko/2019/07/12/beanie-coffee-1113
