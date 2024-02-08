@@ -3,10 +3,6 @@
 # spark = SparkSession.builder \
 #         .appName('Sales Table') \
 #         .getOrCreate()
-# # path = r'G:\Data Science Job and Internship\Personal Projects\DW-Analytics-Personal-Project\Flat-files\201904 sales reciepts.csv'
-
-# Sales_data = spark.read.csv(path, header = True, inferSchema = True)
-# Sales_data.show()
 
 import boto3
 from cryptography.fernet import Fernet
@@ -41,8 +37,7 @@ session = boto3.Session(aws_access_key_id=aws_access_key_id,
                         aws_secret_access_key=aws_secret_access_key,
                         region_name=region)
 s3 = session.client('s3')
-s3.download_file(bucket_name, file_key, 'Sales Data.csv')
-
+# s3.download_file(bucket_name, file_key, 'Sales Data.csv')
 # print('Download Successful')
 
 # #spark.stop()
