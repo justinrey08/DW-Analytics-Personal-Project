@@ -23,6 +23,7 @@ asak_bytes_data = fernet.decrypt(enc_aws_secret_access_key)
 aws_access_key_id = aaki_bytes_data.decode('ascii')
 aws_secret_access_key = asak_bytes_data.decode('ascii')
 
+
 # print(key)
 # #print(aws_access_key_id)
 # #print(aws_secret_access_key)
