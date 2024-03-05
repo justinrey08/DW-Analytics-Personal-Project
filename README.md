@@ -4,6 +4,9 @@ This project aims to provide a technology solution to a imaginary coffee shop wi
 ## Default Schema of Data Model
 ![Default Schema](/Architecture%20and%20Schema/Default-Schema.jpg)
 
+## ERD of Data Data warehouse
+![ERD Model](/Architecture%20and%20Schema/'Model Schema.jpg')
+
 ## Architecture Synthesis Ver 1.1
 ![Solution Architecture](/Architecture%20and%20Schema/Version%201%20Architecture.jpg)
 
