@@ -7,5 +7,4 @@ CREATE TABLE csp.fe_dates (
     week_id INT NOT NULL,
     week_desc VARCHAR(25),
     year_id INT NOT NULL,
-    transaction_date DATE
 )
