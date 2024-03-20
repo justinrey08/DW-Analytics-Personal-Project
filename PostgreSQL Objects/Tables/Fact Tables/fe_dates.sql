@@ -1,11 +1,10 @@
-CREATE TABLE fe_dates (
-    date_id INT,
-    month_id INT,
+CREATE TABLE csp.fe_dates (
+    date_id INT NOT NULL,
+    month_id INT NOT NULL,
     month_name VARCHAR(15),
-    quarter_id INT,
+    quarter_id INT NOT NULL,
     quarter_name VARCHAR(15),
-    week_id INT,
+    week_id INT NOT NULL,
     week_desc VARCHAR(25),
-    year_id INT,
-    transaction_date DATE
+    year_id INT NOT NULL,
 )

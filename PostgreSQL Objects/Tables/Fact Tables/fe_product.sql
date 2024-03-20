@@ -1,5 +1,5 @@
 CREATE TABLE csp.fe_product (
-    product_id INT,
+    product_id INT NOT NULL,
     current_retail_price FLOAT,
     current_wholesale_price FLOAT,
     new_product VARCHAR(50),

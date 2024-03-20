@@ -1,5 +1,5 @@
-CREATE TABLE fe_pastry_inventory (
-    product_id INT,
+CREATE TABLE csp.fe_pastry_inventory (
+    product_id INT NOT NULL,
     sales_outlet_id INT,
     start_of_day_stock INT,
     quantity_sold INT,
