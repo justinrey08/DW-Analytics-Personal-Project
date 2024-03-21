@@ -3,6 +3,7 @@ CREATE TABLE csp.fe_product (
     current_retail_price FLOAT,
     current_wholesale_price FLOAT,
     new_product VARCHAR(50),
+    product VARCHAR(50),
     product_category VARCHAR(50),
     product_description VARCHAR(255),
     product_group VARCHAR(50),
